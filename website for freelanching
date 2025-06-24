@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pixel | Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to Pixel</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <p>Your creative launchpad begins here.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025 Pixel</p>
+  </footer>
+</body>
+</html>
+About Page (about.html)
+<!-- Same header and footer as Home -->
+<main>
+  <h2>About Pixel</h2>
+  <p>Pixel is a free website created to explore ideas, showcase creativity, and connect with people around the world.</p>
+</main>
+ Gallery Page (gallery.html)
+<main>
+  <h2>Gallery</h2>
+  <p>Coming soon: A visual collection of work and inspiration.</p>
+</main>
+Contact Page (contact.html)
+<main>
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send</button>
+  </form>
+</main>
+ Basic Styling (style.css)
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #2c3e50;
+  padding: 1em;
+  color: white;
+  text-align: center;
+}
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+main {
+  padding: 2em;
+}
+footer {
+  background: #2c3e50;
+  text-align: center;
+  color: white;
+  padding: 1em 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
